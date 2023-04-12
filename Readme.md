@@ -36,3 +36,7 @@ git push -u origin main
 4. Perform actual migration `python manage.py migrate` # The table 'notes' will be created in database
 5. Register you model in 'admin.py'
 6. Now you can manage 'notes' model from admin page
+
+#### Dynamic web pages
+1. Create a logic(view) to display all notes in 'notes_list.html' and add 'notes.url' in main urls
+2. Create a logic to disaply single note 
