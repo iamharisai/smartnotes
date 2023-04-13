@@ -50,3 +50,17 @@ git push -u origin main
 2. Add the STATICFILES_DIRS in 'settings.py'
 3. Create a style.css and load static files in html pages
 4. Created a 'base.html' and extends it to other html pages
+
+#### Django forms
+1. Create a logic to add new notes 
+2. Do not forget to add csrf_token in forms
+3. With forms we can add validations, labels, and much more --Not implemeted
+4. No need to mention action for this form, if mention it will be hardcodes as action ={% url 'notes/list' %} 
+
+#### Finishing
+1. Added notes update,edit,delete options
+
+#### User specific 
+1. Added login, logout and signup options
+
+For details about Django built-in views, check out https://ccbv.co.uk/
