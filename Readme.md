@@ -40,3 +40,13 @@ git push -u origin main
 #### Dynamic web pages
 1. Create a logic(view) to display all notes in 'notes_list.html' and add 'notes.url' in main urls
 2. Create a logic to disaply single note 
+
+#### Class based views
+1. Rewrite the functions into classes
+2. Change the pointing in urls file
+
+#### Static files 
+1. Create a new folder 'static' in main project folder and have sepearte folders for css,images...
+2. Add the STATICFILES_DIRS in 'settings.py'
+3. Create a style.css and load static files in html pages
+4. Created a 'base.html' and extends it to other html pages
